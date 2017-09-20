@@ -1,0 +1,307 @@
+
+
+#bg { 
+  background: url(../images/bg.jpg) repeat  center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-x:hidden;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+   nav{
+      font-weight: bold;
+       word-spacing: 15px;
+      color: black;
+      font-size: 18px;
+      text-transform: uppercase;
+      position: relative;
+      margin-top:-20px; 
+      margin-left: -7px;
+
+    }
+    
+  nav ul {
+       text-align: center;
+       background-color: #444;
+      color: #eee;
+      list-style-type: none;
+      width: 100%;
+
+    }  
+  nav ul li {
+      background-color: #444;
+      color: #eee;
+      display:inline-block;
+      position:relative;
+    }
+    
+  nav ul li ul {
+
+      visibility: hidden;
+      position:absolute;
+    }
+    
+  nav ul li:hover ul {
+      background-color: #444;
+      color: #eee;
+      display: block;
+      padding: 0px;
+      visibility: visible;
+    }
+    
+  nav ul li ul li{
+      width:100px;
+       background-color: #444;
+      color: #eee;
+      text-align: center;
+    }
+    
+ nav ul li a{
+        background-color: #444;
+      color: #eee;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size:18px;
+      display:block;
+      padding: 12px 16px;
+    }
+    
+  nav ul li a:hover{
+      background-color: #222;
+      color: #fff;
+    }
+
+    /*Home Page*/
+  
+
+
+
+   .main-container{
+      width:100%;
+      margin:10px;
+   }
+  .left-column{
+      float: left;
+      width:25%;
+      font-size: 18px;
+    }
+ 
+    
+  .center-column{
+      float:left;
+      width: 40%;
+      font-size: 18px;
+      
+    }
+  .right-column{
+      height: 20%;
+      float: left;
+      width:25%;
+      font-size: 18px;
+    }
+   h1{
+    margin:25% auto;
+    font-size: 48px;
+    width: 35%;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px white;
+
+  } 
+  footer{
+      clear:both;
+      background-color: #444;
+      color: #eee;
+      bottom: 0px;
+      height: 20px;
+      text-align: center;
+    }
+    /*For fliping image i used http://www.webdesignerdepot.com/2015/02/3-cool-css3-image-hover-effects/ as a referance*/
+   .flipimg {
+    width:300px;
+    height: 300px;
+    margin-left:-10%;
+}
+.flipimg figure {
+    position:absolute;
+    margin-left:-10px;
+}
+.flipimg figure img {
+    display:block;
+    position:relative;
+    z-index:10;
+    margin-top: -30px;
+    margin-right: 35%;
+     width:370px;
+    height: 325px;
+}
+.flipimg figure figcaption {
+    display:block;
+    position:absolute;
+    z-index:5;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.flipimg figure h2 {
+    color:black;
+    font-size:20px;
+    text-align:left
+}
+.flipimg figure p {
+    display:block;
+    font-size:12px;
+    line-height:18px;
+    margin:0;
+    color:black;
+    text-align:left
+}
+.flipimg figure figcaption {
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    padding:20px 40px;
+    background-color: #E6E6FA;
+    text-align:center;
+   
+    
+}
+.flipimg figure img {
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.flipimg figure:hover img,figure.hover img {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg)
+}
+
+.post-entry{ 
+   margin: 30px 10px 30px 30px; 
+   background-color: #ffffff;
+   border: 1px solid black;
+   opacity: 0.6;
+   filter: alpha(opacity=60); 
+   max-height:600px;
+   overflow-y:scroll; 
+   }
+.entry-header{
+      background-color: #444;
+      color: #eee;
+      bottom: 0px;
+    }
+.entry-content{
+     text-indent: 2em;
+    }
+section dl dt{
+     text-decoration: underline;
+     font-weight: bold;
+     text-indent:0em;
+  }
+  .entry-footer{
+    clear:both;
+      background-color: #444;
+      color: #eee;
+      bottom: 0px;
+      height: 20px;
+  }
+
+    /* Honesty page*/
+    #h{
+        background: url(../images/honesty.jpeg) repeat  center center fixed;
+       -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+       background-size: cover;
+      overflow-x:hidden;
+    }
+    .textform{
+      font-size: 18px;
+    }
+
+    /* Gallery Page */
+    .posi{
+      float:left;
+      display:inline;
+      font-size: 18px;
+      text-align: center;
+
+    }
+   .img{
+    width:350px;
+    height: 300px;
+    margin: 10%;
+   }
+  
+    #gallery{
+        background: url(../images/Gallery.png) repeat  center center fixed;
+       -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+       background-size: cover;
+      overflow-x:hidden;
+    }
+
+
+    /* About Page */
+
+
+     .headding{
+       color: white;
+       font-size: 32px;
+       margin:10% auto 0px 10%;
+     }
+     .para{
+      font-size: 22px;
+      color:white;
+      text-align:left;
+      width: 25%;
+      margin:10% 20% 15% 15%;
+      background-color:#444;
+      opacity:0.6;
+     }
+  #about { 
+   background: url(../images/m1.jpg) repeat  center center fixed;
+  -webkit-background-size: cover;
+  -moz-backgroumnd-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-x:hidden;
+}
+
+/*  Resume Page*/
+
+
+#resume{
+  background: url(../images/resume.jpg) repeat  center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-x:hidden;
+}
+.wrk{
+    text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+  margin-top:50px;
+
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+ul li{
+  list-style-type: none;
+  font-size: 20px;
+}
+.rsm{
+  margin:0 0 30% 20% ;
+  font-size: 20px;
+  padding: 20px 15px;
+}
